@@ -1,0 +1,284 @@
+body{
+    margin: 10px;
+}
+
+.container{
+    margin: auto;
+    width: 1000px;
+    position: relative;
+}
+
+img{
+    cursor: pointer;
+}
+
+/*<header>부분*/
+
+header{
+    height: 35px;
+    position: relative;
+}
+
+.logo{
+    position: absolute;
+}
+.logo-1{
+    padding: 25px 0 0 100px;
+    position: absolute;
+}
+
+
+.login-password-box{
+    position: relative;
+    width: 500px;
+    height: 100px;
+    left: 500px;
+}
+
+.login {
+    float: right;
+    background: #1e2506;
+    border: none;
+    border-radius: 1px;
+    color: #ffffff;
+    letter-spacing: 1px;
+    padding: 3px 10px ;
+    margin: 39px 5px 0 0;
+}
+
+.login:hover{
+    background: rgb(78, 78, 78);
+    cursor: pointer;
+}
+/*<-----------이 부분 입니다!------------->*/
+.btn_ink{
+    margin: 0 0 0 210px;
+    padding: 0 20px 80px 0;
+    color: #a2a2a2;
+    position: absolute;
+}
+
+
+
+
+
+/*목차 부분*/
+header ul{
+    margin: 0;
+    right: 0px;
+    list-style-type: none;
+    position: absolute;
+}
+header ul li{
+    float: left;
+    margin: 10px 70px 0 70px;
+    font-family: 'Helvetica';
+    font-weight: 600;
+
+}
+header ul li:hover{
+    cursor: pointer;
+}
+
+.select a:link{
+    text-decoration: none;
+}
+.select a:hover{
+    text-decoration: none;
+    color: red;
+}
+
+
+.btn_ink a:link{
+    text-decoration: none;
+    font-size: 13px;
+    color: grey;
+}
+.btn_ink a:visited{
+    color: grey;
+}
+
+
+/*------------------------------------------------*/
+/*<contents>*/
+h1{
+    color: black;
+    margin-top: 10px;
+}
+p{
+    color: black;
+    line-height: 32px;
+    font-family: sans-serif;
+}
+
+input{
+    float: right;
+    margin: 40px 5px 0 0;
+    position: relative;
+}
+
+
+.container-2{
+    margin: auto;
+    width: 1000px;
+    position: relative;
+}
+
+/*#customers {*/
+    /*border-collapse: collapse;*/
+    /*margin: 0 0 0 5px;*/
+    /*width: 100%;*/
+/*}*/
+
+/*#customers th{*/
+    /*padding-bottom: 4px;*/
+    /*text-align: left;*/
+/*}*/
+
+/*<필요없지만 혹시몰라 둠>*/
+/*#customers-1 {*/
+    /*border-collapse: collapse;*/
+    /*width: 100%;;*/
+/*}*/
+/*#customers-1 tr img{*/
+/*margin-left: 30px;*/
+    /*margin-top: 10px;*/
+/*}*/
+/*#customers-1 tr .list{*/
+    /*text-align: left;*/
+    /*font-size: 15px;*/
+    /*letter-spacing: -0.5px;*/
+/*}*/
+/*#customers-1 tr .list-2{*/
+    /*!*text-align: left;*!*/
+    /*padding-right: 50px;*/
+    /*font-size: 15px;*/
+    /*font-weight: lighter;*/
+    /*text-align: left;*/
+/*}*/
+
+td.list{
+    color: black;
+}
+
+td{
+    color: #bcbcbc;
+    padding-bottom: 8px;
+}
+
+td:hover{
+
+}
+
+
+/**top-song line**/
+  .top-song{
+    border-bottom: 1px #dddddd solid;
+}
+.top-song2{
+    border-bottom: 1px #dddddd solid;
+}.top-song3{
+    border-bottom: 1px #dddddd solid;
+}.top-song4{
+    border-bottom: 1px #dddddd solid;
+}.top-song5{
+    border-bottom: 1px #dddddd solid;
+}.top-song6{
+    border-bottom: 1px #dddddd solid;
+}.top-song7{
+    border-bottom: 1px #dddddd solid;
+}.top-song8{
+    border-bottom: 1px #dddddd solid;
+}.top-song9{
+    border-bottom: 1px #ddd solid;
+}
+
+/***곡 정보***/
+/*.top-song a:link{*/
+    /*text-decoration: none;*/
+/*}*/
+
+/*.top-song a:visited{*/
+    /*text-decoration: none;*/
+    /*color: black;*/
+/*}*/
+/*.top-song a:hover{*/
+    /*text-decoration: none;*/
+    /*color: black;*/
+/*}*/
+
+a:link, a:visited{
+    text-decoration: none;
+    color: #000;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+/***가수 앨범***/
+.list-2 a:link{
+    text-decoration: none;
+}
+.list-2 a:visited{
+    text-decoration: none;
+    color: #bcbcbc;
+}
+.list-2 a:hover{
+    text-decoration: none;
+    color: #bcbcbc;
+}
+
+
+/*song-list table*/
+.song-list{
+    width: 100%;
+    border-spacing: 0;
+}
+.song-list .song-title{
+    text-align: left;
+    padding-left: 20px;
+}
+.song-list th{
+    height: 40px;
+    border-top: 2px solid #000;
+    border-bottom: 1px solid #000
+}
+.song-list td{
+    text-align: center;
+
+}
+.song-list .artist-album a{
+    color: #888;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 200px; /*.song-list 의 col 크기와 맞춰줘야함 */
+    text-overflow: ellipsis;
+    text-align: left;
+    /*text-decoration: none;*/
+}
+.song-list tr th.artist-album{
+    text-align: left;
+}
+
+.song-list span.dash-line{
+}
+
+.song-list tr td:first-child {
+    font-size: 30px;
+    color: #333333;
+    font-family: 'Nunito', sans-serif;
+}
+.song-list tr td:first-child > span{
+    color: #888;
+}
+.song-list tr td{
+    height: 70px;
+    padding: 15px 0px 10px 0px;
+    overflow: hidden;
+    border-bottom: 1px solid #999;
+    text-align: center;
+}
+.song-list .song-title{
+    /*width: 200px;*/
+}
