@@ -1,0 +1,194 @@
+body{
+    margin: 10px;
+}
+
+.container{
+    margin: auto;
+    width: 1000px;
+    position: relative;
+}
+
+img{
+    cursor: pointer;
+}
+
+/*<header>부분*/
+
+header{
+    height: 35px;
+    position: relative;
+}
+
+.logo{
+    position: absolute;
+}
+.logo-1{
+    padding: 25px 0 0 100px;
+    position: absolute;
+}
+
+
+.login-password-box{
+    position: relative;
+    width: 500px;
+    height: 100px;
+    left: 500px;
+}
+
+.login {
+    float: right;
+    background: #1e2506;
+    border: none;
+    border-radius: 1px;
+    color: #ffffff;
+    letter-spacing: 1px;
+    padding: 3px 10px ;
+    margin: 39px 5px 0 0;
+}
+
+.login:hover{
+    background: rgb(78, 78, 78);
+    cursor: pointer;
+}
+/*<-----------이 부분 입니다!------------->*/
+.btn_ink{
+    margin: 0 0 0 210px;
+    padding: 0 20px 80px 0;
+    color: #a2a2a2;
+    position: absolute;
+}
+
+
+
+
+
+/*목차 부분*/
+header ul{
+    margin: 0;
+    right: 0;
+    list-style-type: none;
+    position: absolute;
+}
+header ul li{
+    float: left;
+    /*padding: 10px 70px 0 70px;*/
+    margin:  10px 70px 0 70px;
+    font-family: 'Helvetica';
+    font-weight: 600;
+
+}
+header ul li:hover{
+    cursor: pointer;
+}
+
+.select a:link{
+    text-decoration: none;
+}
+.select a:hover{
+    text-decoration: none;
+    color: red;
+}
+
+
+.btn_ink a:link{
+    text-decoration: none;
+    font-size: 13px;
+    color: grey;
+}
+.btn_ink a:visited{
+    color: grey;
+}
+
+
+/*------------------------------------------------*/
+/*<contents>*/
+h1{
+    color: black;
+    margin-top: 10px;
+}
+p{
+    color: black;
+    line-height: 32px;
+    font-family: sans-serif;
+}
+
+input{
+    float: right;
+    margin: 40px 5px 0 0;
+    position: relative;
+}
+.contents .container  ul li{
+    position: relative;
+    width: 99px;
+    text-align: center;
+}
+
+.list ul li{
+    list-style-type: none;
+    float: left;
+    padding: 5px 10px 5px 10px;
+    background-color: #f4f4f4;
+    border-top: #232323 solid 1.5px;
+    border-right: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+    right: 40px;
+    margin-bottom: 100px;
+}
+
+.list ul li:hover{
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+
+.song-list{
+    width: 965px;
+    border-spacing: 0;
+}
+.song-list .song-title{
+    text-align: left;
+    padding-left: 20px;
+}
+.song-list th{
+    height: 40px;
+    border-bottom: 2px solid #bcbcbc;
+    font-size: 15px;
+    font-weight: 500;
+    color: #313131;
+}
+.song-list td{
+    text-align: center;
+
+}
+.song-list .artist-album a{
+    color: #888;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 200px; /*.song-list 의 col 크기와 맞춰줘야함 */
+    text-overflow: ellipsis;
+    text-align: left;
+    /*text-decoration: none;*/
+}
+.song-list tr th.artist-album{
+    text-align: left;
+}
+
+.song-list span.dash-line{
+}
+
+.song-list tr td:first-child {
+    font-size: 30px;
+    color: #333333;
+    font-family: 'Nunito', sans-serif;
+}
+.song-list tr td:first-child > span{
+    color: #888;
+}
+.song-list tr td{
+    height: 70px;
+    padding: 15px 0px 10px 0px;
+    overflow: hidden;
+    border-bottom: 1px solid #999;
+    text-align: center;
+}

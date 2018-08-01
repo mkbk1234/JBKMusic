@@ -1,0 +1,133 @@
+body{
+    margin: 10px;
+}
+
+.container{
+    margin: auto;
+    width: 1000px;
+    position: relative;
+}
+
+img{
+    cursor: pointer;
+}
+
+/*<header>부분*/
+
+header{
+    height: 35px;
+    position: relative;
+}
+
+.logo{
+    position: absolute;
+}
+.logo-1{
+    position: absolute;
+    padding: 25px 0 0 100px;
+}
+
+.login-password-box{
+    position: relative;
+    width: 500px;
+    height: 100px;
+    left: 500px;
+}
+
+.login {
+    float: right;
+    background: #1e2506;
+    border: none;
+    border-radius: 1px;
+    color: #ffffff;
+    letter-spacing: 1px;
+    padding: 3px 10px ;
+    margin: 39px 5px 0 0;
+}
+
+.login:hover{
+    background: rgb(78, 78, 78);
+    cursor: pointer;
+}
+          /*<-----------이 부분 입니다!------------->*/
+.btn_ink{
+    margin: 0 0 0 210px;
+    padding: 0 20px 80px 0;
+    color: #a2a2a2;
+    position: absolute;
+}
+
+
+
+
+
+/*목차 부분*/
+header ul{
+    margin: 0;
+    right: 0px;
+    list-style-type: none;
+    position: absolute;
+}
+header ul li{
+    float: left;
+    margin: 10px 70px 0 70px;
+    font-family: 'Helvetica';
+    font-weight: 600;
+
+}
+header ul li:hover{
+    cursor: pointer;
+}
+
+.select a:link{
+     text-decoration: none;
+}
+.select a:hover{
+    text-decoration: none;
+    color: red;
+}
+
+
+.btn_ink a:link{
+    text-decoration: none;
+    font-size: 13px;
+    color: grey;
+}
+.btn_ink a:visited{
+    color: grey;
+}
+
+/*------------------------------------------------*/
+   /*<contents>*/
+h1{
+    color: black;
+    margin-top: 10px;
+}
+p{
+    color: black;
+    line-height: 32px;
+    font-family: sans-serif;
+}
+
+input{
+    float: right;
+    margin: 40px 5px 0 0;
+    position: relative;
+}
+
+.video-Punch{
+    position: relative;
+}
+
+.bg-container{
+    width: 1000px;
+    margin: auto;
+    background-color: #dbdbdb;
+}
+
+.container > .main{
+    background-color: #dbdbdb;
+    width: 1000px;
+    position: absolute;
+}
+
